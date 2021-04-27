@@ -23,4 +23,4 @@ print("{} x {:2} = {}".format(n1,7,t7));
 print("{} x {:2} = {}".format(n1,8,t8));
 print("{} x {:2} = {}".format(n1,9,t9));
 print("{} x {:2} = {}".format(n1,10,t10));
-print("-" * 15)
+print("-" * 16)
