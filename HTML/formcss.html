@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="css/fomrcss.css">
+</head>
+<body>
+    
+
+    <div class="container">
+        <h2> Entre em contato conosco</h2>
+
+        <form name="form" action="envia.js" method="post">
+
+            <fieldset>
+                <div class="campo">
+                <label for="nome">Nome: </label>
+                <input type="text" name="nome"  values="nome" id="nome" size="30px" placeholder="Nome..." required>
+                    <label for="email">Email: </label>
+                    <input type="email" name="email"  values="email" id="email" size="30px" placeholder="Email..." required>
+                        <label for="Email">Telefone: </label>
+                        <input type="tel" name="tel"  values="tel" id="tel" size="30px" placeholder="Telefone..." required> <br><br>
+                </div>
+            </fieldset>
+
+        <div class="textarea">
+            <label for="mensagem ">Sua mensagem: </label>
+            <textarea name="mensagem" id="msn" cols="30" rows="10" placeholder=" Digite a sua mensagem."></textarea>
+        </div>
+
+        <div class="botao">
+            <button><a href="index_menu.html">Enviar dados</a> </button>
+        </div>
+
+        </form>
+
+    </div>
+    
+    
+</body>
+</html>

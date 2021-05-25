@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    width: 1080px;
+    background-color: hsl(180, 100%, 50%);
+    height: 300px;
+    margin: auto;
+    background-image: url(../imagens/Nivus.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1080px;
+
+}
+.menu{
+    width: 1080px;
+    height: 46px;
+    margin:auto;
+    background: linear-gradient(rgb(109, 170, 250), gray, slategray);
+}
+.ul_sup{
+    list-style: none;
+    padding:10px ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.menu_li{
+    display: inline;
+    padding: 5px;
+    display: inline block;
+}
+.ul_sup a:hover{
+    color:#f773f7;
+    transition: .5s;
+    background-color: midnightblue;
+    padding:5px;
+    display: inline-block;
+    border-bottom: 4px solid #00ff55;
+}
+.ul_sup a{
+    text-decoration: none;
+}
+
+.menu li:last-child a{
+    padding:2px;
+    color:rgba(5, 1, 5, 0.993);
+}
+.menu li:last-child a:hover{
+    color:snow;
+    padding:4px;
+    border-color: 2px solid coral;  
+}
+
+
+.container{
+    width: 1080px;
+    background-color: #FFFFFF;
+    height: 500px;
+    margin:auto;
+}
+.conteudo{
+    width: 770PX;
+    background-color: #d9f9d9;
+    height: 500px;
+    display: inline-block;
+    vertical-align: top;      
+}
+/*-------------- MENU LATERAL ESQUERDO --------------------------*/
+
+.menu_lateral{
+    width: 150PX;
+    background-color: #f0b2b5;
+    height: 500px;
+    display: inline-block;
+    vertical-align: top;  
+}
+.ul_e li{
+    list-style: none;
+    padding:10px ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color:  pink;
+    display: block;
+}
+
+/* Como colocar cor nos links*/
+.ul_e a:link{
+    text-decoration:none;
+    color:rgb(6, 241, 163);
+}
+
+.ul_e a:hover{
+    color:#f773f7;
+    transition: -7s;
+    background-color: midnightblue;
+    padding:3px;
+}
+
+a:action{
+    color: red;
+}
+/*-------------- MENU LATERAL DIREITO --------------------------*/
+
+
+.menu_lateral2{
+    width: 150PX;
+    background-color: #f0b2b5;
+    height: 500px;
+    display: inline-block;
+    vertical-align: top;  
+
+}
+footer{
+    margin: auto;
+    width: 1080px;
+    background-color: #2f00ff;
+    height: 100px;
+    background-image: url(../imagens/Nivus.jpeg);
+}
+
+

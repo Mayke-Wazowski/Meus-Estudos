@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+form{
+    background-color: rgb(182, 241, 232);
+    display: inline-block;
+    padding: 10px;
+    
+}
+#titulo{
+    font-family: sans-serif;
+    color: blueviolet;
+    margin-left:7%;
+}
+
+#stitulo{
+    font-family: sans-serif;
+    color: rgb(233, 98, 215);
+    margin-left:6%;
+}
+
+small{
+    color: red;
+}
+
+fieldset{
+    border: 0px;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(181, 231, 247);
+    font-size: 18px;
+    margin-left:30%;
+}
+
+input, select, textarea, button{
+    border-radius: 6px;
+}
+.campo input:focus, campo select:focus, .campo textarea:focus{
+    background: rgb(255, 220, 220);
+}

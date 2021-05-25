@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="css/fomr.css">
+</head>
+<body>
+    <div class="campo">
+        <h1 id="titulo">Cadastro de DEVS</h1>
+        <h3 id="stitulo">Complete com as suas informações</h3>
+    </div>
+
+    <div>Formulario</div><br>
+
+    
+    <form name="Formulario_1" action="#" method="post">
+        <fieldset>
+            <div class="grupo">
+                <label for="nome" id="nome"><strong> Nome </strong></label>
+                <input type="text" name="nomes" values="nome" placeholder="Digite o seu nome" required><small>*</small>
+                <label for="sobrenome"><strong> Sobrenome </strong></label>
+                <input type="text" name="sobrenome" values="sobrenome"placeholder="Digite o seu sobrenome" required><small>*</small>
+            </div>
+    </fieldset>
+
+    <div class="grupo">
+        <label for="email" ><strong> Email </strong></label>
+        <input type="email" name="email" values="email" placeholder="Digite o seu email" required> <small>*</small>
+        <label for="senha"><strong>Digite uma senha</strong></label>
+        <input type="password" name="password" id="password" values="password" placeholder="Digite uma senha" required><small>*</small>
+    </div><br>
+
+    <div class="grupo">
+        <label for="tel"><strong>Telefone</strong>
+        </label>
+        <input type="tel" name="tel" id="tel" placeholder="Digite o seu celular" >
+    </div><br>
+
+    <div>
+        <label for="data">Selione a data corrente</label>
+        <input type="date" name="data" id="data" required>
+    </div><br>
+
+    <fieldset>
+        <div>
+            <label for="text"><strong> Em quais áreas você gosta em desenvolvimento:</strong> </label>
+            <br>
+            <input type="radio" name="devweb" value="backend" id="backand" checked>Back-and
+            <input type="radio" name="devweb" value="front" id="frontand">Front-End
+            <input type="radio" name="devweb" value="full" id="fullstack">Full-Stack
+        </div>
+    </fieldset> <br>
+
+    <div class="campo">
+        <label for="senioridade"><strong>SENIORIDADE</strong></label>
+            <select id="senioridade">
+                <option selected disabled value="">Selecione</option>
+                <option>Junior</option>
+                <option>Senior</option>
+                <option>Pleno</option>
+             </select>
+    </div> <br>  
+
+    <fieldset>
+        <label for="cursos"><strong>Selenione os cursos que mais gostas:</strong></label><br>
+        <input type="checkbox" name="check" id="html"> HTML <br>
+        <input type="checkbox" name="check" id="css"> CSS <br>
+        <input type="checkbox" name="check" id="java"> Java <br>
+        <input type="checkbox" name="check" id="C#"> C# <br>
+    </fieldset><br>
+
+    <input type="file" name="upload" value="upload">
+
+    <div class="campo">
+        <br>
+        <label><strong>Conte um pouco da sua experiência:</strong></label><br>
+        <textarea name="experiencia" id="resumo_cliente" rows="6" placeholder="Digite aqui..."></textarea>
+    </div>
+
+    <button id="botao" type="submit">Concluído</button>
+    <button id="botao_reset" type="reset">Limpar dados</button>
+    </form>
+    
+</body>
+</html>

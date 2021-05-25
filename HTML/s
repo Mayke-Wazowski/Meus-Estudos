@@ -1,0 +1,19 @@
+<ul>
+                    <li> <a href="">HOME</a> </li>
+                    <li><a href="">FOTOS</a> </li>
+                    <li><a href="">SERVIÇOS</a> </li>
+                    <li><a href="">CONTATOS</a> </li>
+                </ul>
+
+
+<table border="0" width="800" align="center" bgcolor="lightblue">
+        <tr>
+            <!-- Criei a primeira td para ser o cabeçalho da page, com imagens e os seu atributos -->
+            <td height="200" colspan="3"><img src="imagens/Covid.jpg"height="200">
+                <img src="imagens/Nivus.jpeg" height="200" width="400" align="left"> </td>
+        </tr>
+        <tr>
+            <td height="100" widht="100" bgcolor="red">
+        </td>
+        </tr>
+    </table> 
