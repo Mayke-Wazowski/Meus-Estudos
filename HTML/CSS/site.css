@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    font-family: 'Playfair Display', 'sans-serif';
+}
+ 
+header{
+    background-color: black;
+    width: 1048px;
+    height: 185px;
+    margin:auto;
+}
+
+#logo{
+    background:linear-gradient(rgb(45, 52, 61), gray, slategray);
+    width: 250px;
+    height:170px;
+    float: left;
+    margin-top: 15px;
+    position: absolute;
+}
+
+#logo img{
+    width: 190px;
+    height: 170px;
+}
+
+#login{
+    background-color: none;
+    width: 220px;
+    height:160px;
+    float:right;
+    text-align: center;
+    color: snow;
+}
+#login input{
+    margin-top: 30px;    
+}
+
+#login button{
+    background-color: #0045a8;
+    color: #FFFFFF;
+    margin-top: 20px;
+    padding: 8px;
+    border: 0;
+    border-radius: 8px;
+}
+/*-------- Criação do menu  */
+.menu{
+    background: rgb(51, 33, 33);
+    width: 1048px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+#menu_ul {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.menu ul li{
+    display: inline;
+    padding:3px;
+}
+.menu a{
+    text-decoration: none;
+    color: snow;
+}
+
+.menu a:hover{
+    background: rgb(73, 73, 219);
+    padding: 10px;
+    transition: .5s;
+    border-bottom: 4px solid turquoise;
+    border-radius: 8px;
+}
+
+/* =============== Fim do menu =======================*/
+
+.galeria{
+    margin: 0px auto;
+    width: 1040px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    background: pink;
+}
+
+.foto{
+    position: absolute;
+    opacity: 0;
+    animation-name: animacao;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.foto:nth-child(1){
+}
+
+.foto:nth-child(2){
+    animation-delay: 5s;
+}
+
+.foto:nth-child(3){
+    animation-delay:15s;
+}
+
+.foto:nth-child(4){
+    animation-delay: 29s;
+}
+
+img{
+    max-width: 100vh;
+}
+
+@keyframes animacao{
+    25%{
+        opacity: 1;
+        transform: scale(1.1, 1.1);
+    }
+    50%{
+        opacity: 1;
+    }
+}
+/* =============== Slides de Fotos =======================*/
+
+#banner{
+    background-color: blue;
+    width: 1048px;
+    height: 400px;
+    margin: 0 auto;   
+}
+
+#banner h1{
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+
+#container{
+    margin : 0 auto;
+    background-color: deepskyblue;
+    width: 1048px;
+    height: 400px;
+    
+}
+/* =============== Final de Fotos =======================*/
+
+/* ========== CONTEUDO ================*/
+.layer{
+    background-color: red;
+    display: inline-block;
+    width: 290px;
+    height: 400px;
+    margin: 20px;
+    margin-top: 0px;
+    padding-left: 15px;
+}
+
+.layer h2{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.layer p{
+    padding-top: 50px;
+    color: white;
+    text-align: justify;
+}
+
+.layer img{ 
+    width: 290px;  
+    color: white;   
+}
+
+
+/* =============== Final do Conteudo
+ =======================*/
+
+
