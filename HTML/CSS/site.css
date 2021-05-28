@@ -83,9 +83,10 @@ header{
 
 /* =============== Fim do menu =======================*/
 
+/* =============== Slides de Fotos =======================*/
 .galeria{
-    margin: 0px auto;
-    width: 1040px;
+    margin: auto;
+    width: 1048px;
     height: 400px;
     overflow: hidden;
     position: relative;
@@ -116,7 +117,7 @@ header{
 }
 
 img{
-    max-width: 100vh;
+    max-width: 1048px;
 }
 
 @keyframes animacao{
@@ -128,7 +129,7 @@ img{
         opacity: 1;
     }
 }
-/* =============== Slides de Fotos =======================*/
+/* =============== Final de Fotos =======================*/
 
 #banner{
     background-color: blue;
@@ -150,7 +151,7 @@ img{
     height: 400px;
     
 }
-/* =============== Final de Fotos =======================*/
+
 
 /* ========== CONTEUDO ================*/
 .layer{

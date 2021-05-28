@@ -2,7 +2,8 @@
 body {
 	background: #CCCCCC;
 	background-color: #061940;
-
+		width: 1048px;
+		margin: 0 auto;
 }
 
 #banner {
