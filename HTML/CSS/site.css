@@ -90,7 +90,7 @@ header{
     height: 400px;
     overflow: hidden;
     position: relative;
-    background: pink;
+    background:black;
 }
 
 .foto{
@@ -145,26 +145,26 @@ img{
 }
 
 #container{
-    margin : 0 auto;
+    margin: 0 auto;
     background-color: deepskyblue;
     width: 1048px;
-    height: 400px;
+    height: 500px;
     
 }
-
 
 /* ========== CONTEUDO ================*/
 .layer{
     background-color: red;
     display: inline-block;
     width: 290px;
-    height: 400px;
+    height: 500px;
     margin: 20px;
     margin-top: 0px;
     padding-left: 15px;
 }
 
 .layer h2{
+    margin-left: 0px;
     margin-top: 10px;
     margin-bottom: 15px;
     text-align: center;
@@ -180,9 +180,82 @@ img{
     width: 290px;  
     color: white;   
 }
+/* =============== Final do Conteudo =======================*/
+
+#depoimento{
+    margin: 0 auto;
+    background-color: black;
+    width: 1048px;
+    height: 440px;
+    padding-top: 10px;
+    text-align: center;
+}
+#depoimento h1{
+    color:#FFFFFF;
+}
+.dp1{
+    background-color: red;
+    width: 355px;
+    height: 350px;  
+    float: left; 
+    text-align: justify;
+    border: 2px solid grey;
+    padding: 20px;
+    border-radius: 10px;
+    font-style: italic;
+    margin-left: 50px;
+}
+.dp2{
+    background-color: red;
+    width: 355px;
+    height: 350px;  
+    float: right; 
+    text-align: justify;
+    border: 2px solid grey;
+    padding: 20px;
+    border-radius: 10px;
+    font-style: italic;  
+    margin-right: 50px;
+}
+.dp1 img{
+    margin-left: 10vh;
+    width: 100px;
+    height: 150px;
+    padding-top: 10px;
+}
+.dp2 img{
+    margin-left: 8vh;
+    width: 200px;
+    height: 150px;
+    padding-top: 10px;
+}
+
+.resocial{
+    margin: 0 auto;
+    background-color:pink;
+    width: 1048px ;
+    height: 50px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.resocial img{
+    display: inline-block;
+    margin-top: 0px  ;
+    width: 40px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+footer{
+    color: dodgerblue;
+    margin: 0 auto;
+    background-color: black;
+    width: 1048px ;
+    height: 50px;
+    padding-top: 10px;
+    text-align: center;
+}
 
 
-/* =============== Final do Conteudo
- =======================*/
-
-
+terminei a aula em 1h:28m:45s

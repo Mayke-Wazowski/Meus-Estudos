@@ -30,7 +30,6 @@
 .menu_li{
     display: inline;
     padding: 5px;
-    display: inline block;
 }
 .ul_sup a:hover{
     color:#f773f7;
