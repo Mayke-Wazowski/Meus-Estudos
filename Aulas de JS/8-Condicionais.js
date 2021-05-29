@@ -52,10 +52,6 @@ else{
 }
 
 
-
-
-
-
 console.log("");
 console.log("");
 console.log(`Passagens ainda disponiveis ${listaDeDistinos}`);

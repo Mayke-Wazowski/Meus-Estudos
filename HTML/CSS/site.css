@@ -146,7 +146,7 @@ img{
 
 #container{
     margin: 0 auto;
-    background-color: deepskyblue;
+    background-color: black;
     width: 1048px;
     height: 500px;
     
@@ -154,13 +154,15 @@ img{
 
 /* ========== CONTEUDO ================*/
 .layer{
+    float: left;
     background-color: red;
-    display: inline-block;
     width: 290px;
     height: 500px;
     margin: 20px;
-    margin-top: 0px;
-    padding-left: 15px;
+    margin-top: 5px;  
+    padding-left: 18px;
+    box-shadow: 3px 5px 20px #FFFFFF;
+    border-radius: 15px;
 }
 
 .layer h2{
@@ -177,8 +179,9 @@ img{
 }
 
 .layer img{ 
-    width: 290px;  
-    color: white;   
+    width: 270px;  
+    color: white;  
+    
 }
 /* =============== Final do Conteudo =======================*/
 
@@ -196,7 +199,7 @@ img{
 .dp1{
     background-color: red;
     width: 355px;
-    height: 350px;  
+    height: 338px;  
     float: left; 
     text-align: justify;
     border: 2px solid grey;
@@ -208,7 +211,7 @@ img{
 .dp2{
     background-color: red;
     width: 355px;
-    height: 350px;  
+    height: 338px;  
     float: right; 
     text-align: justify;
     border: 2px solid grey;
@@ -217,19 +220,28 @@ img{
     font-style: italic;  
     margin-right: 50px;
 }
-.dp1 img{
-    margin-left: 10vh;
-    width: 100px;
-    height: 150px;
+
+.dp1 p{
     padding-top: 10px;
+    color: white;
+    text-align: justify;
 }
-.dp2 img{
-    margin-left: 8vh;
-    width: 200px;
+
+.dp1 img{
+    margin-left: 3vh;
+    width: 300px;
     height: 150px;
     padding-top: 10px;
 }
 
+.dp2 img{
+    margin-left: 3vh;
+    width: 300px;
+    height: 150px;
+    padding-top: 10px;
+}
+ 
+/* ============== footer ================ */
 .resocial{
     margin: 0 auto;
     background-color:pink;
@@ -256,6 +268,6 @@ footer{
     padding-top: 10px;
     text-align: center;
 }
-
+/* ============== fim do footer ================ */
 
 terminei a aula em 1h:28m:45s
