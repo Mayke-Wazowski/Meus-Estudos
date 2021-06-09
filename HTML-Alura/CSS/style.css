@@ -1,47 +1,34 @@
-
 body {
 	background: #CCCCCC;
 	background-color: #061940;
-		width: 1048px;
-		margin: 0 auto;
+		
 }
 
-#banner {
-	width: 100%;
+#banner{
+    display: block;
+    width: 1048px; 
+    margin: 0 auto;
 }
 
-.h-header{
-	padding: 20px;
-	background: teal;
-	font-family: 'Times New Roman', Times, serif;
-	display: inline-block;
-}
 .principal{
+	width: 1048px;
+	margin: 0 auto;
 	background: #CCCCCC;
-	padding: 30px;
+	padding-top: 30px;
+	padding-bottom: 10px;
 }
-
-/*h1 {
-	text-align: center;;
-	border: 10px solid #000000;
-	height: 150px;
-	padding-top: 10px;
-	margin: 40px;
-	
-}*/
 
 .h{
 	text-align: center;
 }
 
-p {
+.principal p{
 	text-align: center;
 }
 
-#missao {
+#missao p{
 	font-size: 20px
 }
-
 
 #strong1 {
 	color: #FF0000;
@@ -52,31 +39,41 @@ p {
 }
 
 .beneficios{
+	width: 1048px;
+	height: 400px;
+	margin: 0 auto;
 	background: #FFFFFF;
-	padding: 20px;
+	padding-top: 5px;
+	background-image: url("../imagens/beneficios.jpg");
 }
 
-h3{
-	text-align: center;
+#h3{
+	font-size: 30px;
+	margin-top: 20px;
+	margin-left: 10px;
+	text-align: left;
 }
 
-ul{
-	display: inline-block;
+.cliente {
 	vertical-align: top;
 	width: 20%;
-	margin-right: 15%;
-	background: none;
+	background:none;
+	margin-top: 20px;
+}
+.list{
+	color: #FFFFFF;
+	list-style: none;
+	vertical-align: left;
+	padding: 10px;
 }
 
 #imagem_ben{
-	width: 50%;
+	padding-top: 30px;
+	display: block;
+    width: 940px; 
+	height:400px;
+    margin: 0 auto;
 }
-
-
-
-
-
-
 
 
 
