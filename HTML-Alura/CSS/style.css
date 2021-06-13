@@ -1,34 +1,40 @@
-body {
-	background: #CCCCCC;
-	background-color: #061940;
-		
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+#banner {
+	width: 100%;
 }
 
-#banner{
-    display: block;
-    width: 1048px; 
-    margin: 0 auto;
-}
 
 .principal{
-	width: 1048px;
-	margin: 0 auto;
 	background: #CCCCCC;
-	padding-top: 30px;
-	padding-bottom: 10px;
+	padding: 30px;
 }
+
+/*h1 {
+	text-align: center;;
+	border: 10px solid #000000;
+	height: 150px;
+	padding-top: 10px;
+	margin: 40px;
+	
+}*/
 
 .h{
 	text-align: center;
 }
 
-.principal p{
+p {
 	text-align: center;
 }
 
-#missao p{
+#missao {
 	font-size: 20px
 }
+
 
 #strong1 {
 	color: #FF0000;
@@ -39,41 +45,31 @@ body {
 }
 
 .beneficios{
-	width: 1048px;
-	height: 400px;
-	margin: 0 auto;
 	background: #FFFFFF;
-	padding-top: 5px;
-	background-image: url("../imagens/beneficios.jpg");
+	padding: 20px;
 }
 
-#h3{
-	font-size: 30px;
-	margin-top: 20px;
-	margin-left: 10px;
-	text-align: left;
+h3{
+	text-align: center;
 }
 
-.cliente {
+ul{
+	display: inline-block;
 	vertical-align: top;
 	width: 20%;
-	background:none;
-	margin-top: 20px;
-}
-.list{
-	color: #FFFFFF;
-	list-style: none;
-	vertical-align: left;
-	padding: 10px;
+	margin-right: 15%;
+	background: none;
 }
 
 #imagem_ben{
-	padding-top: 30px;
-	display: block;
-    width: 940px; 
-	height:400px;
-    margin: 0 auto;
+	width: 50%;
 }
+
+
+
+
+
+
 
 
 

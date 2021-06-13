@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos - Barbearia</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="CSS/produtos.css">
+    <link rel="stylesheet" href="CSS/contato.css">
+</head>
+<body>
+    
+    <header>
+        <div class="caixa">
+            <h1><img src="imagens/logo.png"></h1>
+                 <nav>   
+                    <ul>
+                        <li><a href="index.html">    HOME     </a></li>
+                        <li><a href="produtos.html"> PRODUTOS </a></li>
+                        <li><a href="contato.html">  CONTATOS </a></li>
+                    </ul>
+                </nav>
+        </div>            
+    </header>
+        <main>
+            <form action="post">
+                <fieldset>
+                    <div class="grupo">
+                        <label for="nome" class="">Nome e Sobrenome</label>
+                        <input type="text" id="nome" name="nome" values="nome" placeholder="Nome e Sobrenome" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" values="email" placeholder="Email" required>
+
+                        <label for="tel">Telefone</label>
+                        <input type="tel" id="tel" name="tel" values="tel" placeholder="Telefone" required>
+                    </div>
+                </fieldset>
+                <button id="botao" type="submit"> Enviar Contato</button>
+            </form>
+        </main>
+    <footer>
+        <img src="imagens/logo-branco.png">
+        <p class="copyright">Copyright Barbearia Alura - 2021 &#169;</p>
+    </footer>
+
+</body>
+</html>
