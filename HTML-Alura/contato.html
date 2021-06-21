@@ -37,6 +37,27 @@
                         <input type="tel" id="tel" name="tel" values="tel" placeholder="Telefone" required>
                     </div>
                 </fieldset>
+                <div class="msg">
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite uma mensagem"></textarea>
+                </div>
+
+                <div class="contato">
+                    
+                    <p>Como prefere o nosso contato</p><br>
+                    
+                    <input type="radio" value="email" name="contato" id="radio-email">
+                    <label for="radio-email">Email</label>
+
+                    <input type="radio" value="telefone" name="contato" id="radio-telefone">
+                    <label for="radio-telefone">Telefone</label>
+
+                    <input type="radio" value="whatsapp" name="contato" id="radio-whatsapp">
+                    <label for="radio-whatsapp">Whatsapp</label>
+                </div>
+                <label for=""><input type="checkbox">
+                    Gostaria de receber nossas novidades por email ?
+                </label>
+
                 <button id="botao" type="submit"> Enviar Contato</button>
             </form>
         </main>
