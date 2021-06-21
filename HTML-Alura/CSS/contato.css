@@ -6,10 +6,10 @@ main{
 form{
     margin: 40px 0;
 }
-
+/*============= Inivio do Nomes ===================*/
 fieldset{
-    margin-left: 10px;
-    border: 1px solid black;
+  
+    border: none;
 }
 
 .grupo label{
@@ -27,16 +27,47 @@ fieldset{
     width: 300px;
 }
 
+.msg{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*============= Fim dos nomes ===================*/
+
+/*============= contato ===================*/
+
+.contato legend{
+    font-size: 20px;
+    display: block;
+    font-weight: bold;
+}
+.contato label{
+    display: block;
+    color: black;
+}
+
+.horario{
+    margin-top: 15px;
+}
+
+#novidade{
+    margin-top: 20px;
+}
+
+/*============= Fim do contato ===================*/
+
 #botao{
-    margin-top: 30px;
+    width: 150px;
+    margin: 1px 0px 10px 0px;
     border-radius: 5px;
     border: 1px solid #8080ff;
-    margin-left: 10px;
     padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: .5s;
 }
 
 #botao:hover{
     color: #2f34fd;
     border-bottom: 1px solid black;
-    transition: .5s;
+    transform: scale(1.1);
 }

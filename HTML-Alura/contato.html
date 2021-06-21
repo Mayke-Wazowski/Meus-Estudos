@@ -13,7 +13,7 @@
     
     <header>
         <div class="caixa">
-            <h1><img src="imagens/logo.png"></h1>
+            <h1><img src="imagens/logo.png" alt=" Logo da Barbearia Alura"></h1>
                  <nav>   
                     <ul>
                         <li><a href="index.html">    HOME     </a></li>
@@ -27,7 +27,7 @@
             <form action="post">
                 <fieldset>
                     <div class="grupo">
-                        <label for="nome" class="">Nome e Sobrenome</label>
+                        <label for="nome"> Nome e Sobrenome</label>
                         <input type="text" id="nome" name="nome" values="nome" placeholder="Nome e Sobrenome" required>
 
                         <label for="email">Email</label>
@@ -37,9 +37,42 @@
                         <input type="tel" id="tel" name="tel" values="tel" placeholder="Telefone" required>
                     </div>
                 </fieldset>
-                <button id="botao" type="submit"> Enviar Contato</button>
+
+                <div class="msg">
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite uma mensagem"></textarea>
+                </div>
+
+                <div class="contato">
+                    
+                    <legend>Como prefere o nosso contato ? </legend><br>
+                                       
+                    <label for="radio-email"><input type="radio" value="email" name="contato" id="radio-email"> Email</label>
+                   
+                    <label for="radio-telefone"> <input type="radio" value="telefone" name="contato" id="radio-telefone"> Telefone</label>
+                    
+                    <label for="radio-whatsapp"><input type="radio" value="whatsapp" name="contato" id="radio-whatsapp" checked> Whatsapp</label>
+
+                    <fieldset>
+                        <div class="horario">
+                            <h3>Em qual horário prefere ser atendido ? </h3>
+                            <select name="turno" id="turno">
+                                <option selected disabled value=""> Selecione </option>
+                                <option value=""> Manhã </option>
+                                <option value=""> Tarde </option>
+                                <option value=""> Noite </option>
+                            </select>
+                        </div>
+                    </fieldset>
+                </div>
+                <label for="novidade"><input type="checkbox" id="novidade" name="novidade" value="novidade" checked>
+                     Gostaria de receber nossas novidades por email ?
+                </label>
             </form>
+
+            <button id="botao" type="submit"> Enviar Contato</button>
+
         </main>
+        
     <footer>
         <img src="imagens/logo-branco.png">
         <p class="copyright">Copyright Barbearia Alura - 2021 &#169;</p>
