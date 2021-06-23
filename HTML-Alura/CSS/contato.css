@@ -31,6 +31,7 @@ fieldset{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 /*============= Fim dos nomes ===================*/
 
 /*============= contato ===================*/
@@ -55,6 +56,8 @@ fieldset{
 
 /*============= Fim do contato ===================*/
 
+/*============= Botão ===================*/
+
 #botao{
     width: 150px;
     margin: 1px 0px 10px 0px;
@@ -64,6 +67,7 @@ fieldset{
     cursor: pointer;
     font-weight: bold;
     transition: .5s;
+    margin-top: 20px;
 }
 
 #botao:hover{
@@ -71,3 +75,30 @@ fieldset{
     border-bottom: 1px solid black;
     transform: scale(1.1);
 }
+/*============= Botão ===================*/
+
+
+/*============= Table de horario ===================*/
+
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    background: #500000;
+    color:#FFFFFF;
+    font-weight: bold;
+}
+
+.t{
+    border: 1px solid red;
+    padding: 8px 15px;
+}
+
+td{
+    border: 1px solid #000000;
+    padding: 5px 10px;
+}
+
+/*============= Final da Table ===================*/
+
