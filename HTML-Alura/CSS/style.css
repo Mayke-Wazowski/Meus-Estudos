@@ -24,7 +24,7 @@ body{
 
 .h{
 	text-align: center;
-	font-size: 24px;
+	font-size: 30px;
 	font-weight: bold;
 	margin-bottom: 10px;
 }
@@ -54,6 +54,8 @@ body{
 
 #maps p {
 	margin:1em 2em;
+	color: #FFFFAA;
+	font-size: 25px;
 }
 
 /*=========== Fim Maps ================*/
@@ -66,18 +68,23 @@ body{
 	padding: 20px;
 	margin: 0 auto;
 	background-image: url(../imagens/beneficios.jpg);
+	margin-bottom: 20px;
 }
 
 .beneficios h3{
+	font-size: 30px;
+	color: #FFFFAA;
 	text-align: center;
 	margin-bottom: 50px;
+	
 }
 
-#ul_list{
-	padding-top: 50px;
+.ul_list{
+	background: red;
+	padding-top: 20px;
 	display: inline-block;
 	vertical-align: top;
-	width: 20%;
+	width: 21%;
 	margin-right: 15%;
 	background: none;
 }
@@ -86,6 +93,8 @@ body{
 	color: #FFFFAA;
 	font-size: 18px;
 	font-style: italic;
+	
+	line-height: 1.5;
 }
 
 /*=========== Fim de Beneficios ================*/
