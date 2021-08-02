@@ -84,7 +84,7 @@ body{
 	padding-top: 20px;
 	display: inline-block;
 	vertical-align: top;
-	width: 21%;
+	width: 23%;
 	margin-right: 15%;
 	background: none;
 }
@@ -93,8 +93,13 @@ body{
 	color: #FFFFAA;
 	font-size: 18px;
 	font-style: italic;
-	
 	line-height: 1.5;
+}
+
+.list:first-child {
+    font-weight: bold;
+	font-size: 20px;
+	text-decoration: underline;
 }
 
 /*=========== Fim de Beneficios ================*/
