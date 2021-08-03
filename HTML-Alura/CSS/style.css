@@ -1,6 +1,8 @@
 body{
 	background-color: #061940;
+	background: linear-gradient(#061940,#d41e1e);
 }
+
 
 .img_banner{
 
@@ -9,14 +11,12 @@ body{
 
 #banner {
 	width: 940px;
-	height: ;
-	
+	height: 450px;
 }
 
 /*=========== Main ================*/
 .principal{
 	background: #CCCCCC;
-	
 	width: 940px;
 	text-align: justify;
 	margin: 0 auto;
@@ -46,10 +46,18 @@ body{
 /*=========== Fim de Main ================*/
 
 /*=========== Inicio Maps ================*/
-#maps{
-	text-align: center;
-	padding: 3em 0;
 
+#maps{
+	margin: 0 auto;
+	text-align: center;
+	background-color:;
+	margin-bottom: 5px;
+}
+
+.backg_maps{
+	background-color;
+	width: 940px;
+	margin: 0 auto;
 }
 
 #maps p {
@@ -61,14 +69,20 @@ body{
 /*=========== Fim Maps ================*/
 
 /*=========== Beneficios ================*/
+
+.backg_bene{
+	background-color:;
+}
+
 .beneficios{
-	width: 900px;
+	width: 940px;
 	height: 400px;
-	background: #FFFFFF;
+	background: red;
 	padding: 20px;
 	margin: 0 auto;
 	background-image: url(../imagens/beneficios.jpg);
-	margin-bottom: 20px;
+	background-repeat:no-repeat;
+	margin-bottom: ;
 }
 
 .beneficios h3{
@@ -102,6 +116,9 @@ body{
 	text-decoration: underline;
 }
 
+.list:first-child{
+	font-weight: bold;
+}
 /*=========== Fim de Beneficios ================*/
 
 
