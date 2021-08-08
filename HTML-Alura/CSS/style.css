@@ -28,6 +28,14 @@ body{
 	font-weight: bold;
 	margin-bottom: 10px;
 }
+.h:first-letter{
+	color:blueviolet;
+}
+
+.principal p:first-line{
+	font-style: italic;
+	font-weight:bold;
+}
 
 .principal p {
 	text-align: center;
@@ -35,9 +43,9 @@ body{
 }
 
 #missao {
-	font-size: 20px
+	font-size: 20px;
+	padding: 10px;
 }
-
 
 #strong1 {
 	color: #FF0000;
@@ -90,6 +98,7 @@ body{
 	color: #FFFFAA;
 	text-align: center;
 	margin-bottom: 50px;
+	font-weight: bold;
 	
 }
 
@@ -98,7 +107,7 @@ body{
 	padding-top: 20px;
 	display: inline-block;
 	vertical-align: top;
-	width: 23%;
+	width: 25%;
 	margin-right: 15%;
 	background: none;
 }
@@ -107,7 +116,11 @@ body{
 	color: #FFFFAA;
 	font-size: 18px;
 	font-style: italic;
-	line-height: 1.5;
+	line-height: 1.2;
+}
+
+.list:before{
+	content: "☆";
 }
 
 .list:first-child {
@@ -116,7 +129,7 @@ body{
 	text-decoration: underline;
 }
 
-.list:first-child{
+.list:last-child{
 	font-weight: bold;
 }
 /*=========== Fim de Beneficios ================*/
