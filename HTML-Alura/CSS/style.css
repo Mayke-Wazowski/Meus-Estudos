@@ -3,10 +3,9 @@ body{
 	background: linear-gradient(#061940,#d41e1e);
 }
 
-
 .img_banner{
-
 	text-align: center;
+	margin: 0 auto;
 }
 
 #banner {
