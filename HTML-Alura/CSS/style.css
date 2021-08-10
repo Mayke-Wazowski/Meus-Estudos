@@ -1,6 +1,7 @@
 body{
 	background-color: #061940;
 	background: linear-gradient(#061940,#d41e1e);
+	
 }
 
 .img_banner{
@@ -9,16 +10,21 @@ body{
 }
 
 #banner {
-	width: 940px;
-	height: 450px;
+	width: 100%;
+	
 }
 
 /*=========== Main ================*/
 .principal{
-	background: #CCCCCC;
+	padding: 3em 0;
 	width: 940px;
 	text-align: justify;
 	margin: 0 auto;
+}
+
+/* Com essa função do CSS, Conseguimos aplicar as modificaçoes nos demias paragrafos e não irá ser aplicado no P selecionado */
+.principal p:not(#missao){
+	text-decoration: underline;
 }
 
 .h{
@@ -26,7 +32,13 @@ body{
 	font-size: 30px;
 	font-weight: bold;
 	margin-bottom: 10px;
+	clear: left;
 }
+.utensilios{
+	width: 150px;
+	float: left;	
+}
+
 .h:first-letter{
 	color:blueviolet;
 }
@@ -61,6 +73,10 @@ body{
 	margin-bottom: 5px;
 }
 
+#maps h3{
+	margin-top: 15px;
+}
+
 .backg_maps{
 	background-color;
 	width: 940px;
@@ -89,7 +105,7 @@ body{
 	margin: 0 auto;
 	background-image: url(../imagens/beneficios.jpg);
 	background-repeat:no-repeat;
-	margin-bottom: ;
+	box-shadow: 0px 0px 30px 20px #000000;
 }
 
 .beneficios h3{
@@ -137,7 +153,24 @@ body{
 
 
 
+@media screen and (max-width: 600px) {
+	.caixa, .principal, .beneficios, .backg_maps{
+		width: auto;
+	}
+	
+	iframe{
+		width: auto;
+	}
 
+	h1{
+		width: left;
+		text-align: center;
+	}
+	 
+	nav{
+		position: static;
+	}
+}
 
 
 
