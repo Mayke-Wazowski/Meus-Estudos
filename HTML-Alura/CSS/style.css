@@ -100,7 +100,6 @@ body{
 .beneficios{
 	width: 940px;
 	height: 400px;
-	background: red;
 	padding: 20px;
 	margin: 0 auto;
 	background-image: url(../imagens/beneficios.jpg);
@@ -153,22 +152,40 @@ body{
 
 
 
-@media screen and (max-width: 600px) {
-	.caixa, .principal, .beneficios, .backg_maps{
+@media screen and (max-width: 1000px) {
+	.caixa, .principal, .backg_maps{
 		width: auto;
+		text-align: center;
 	}
 	
+    .principal{
+		padding: 1em;
+		font-size: 9px;
+	}
+
 	iframe{
 		width: auto;
 	}
 
 	h1{
-		width: left;
+		width: auto;
 		text-align: center;
 	}
 	 
 	nav{
 		position: static;
+	}
+
+	.list{
+		font-size: 15px;
+	}
+	.beneficios{
+		width: auto;
+		background-size: cover;
+	}
+
+	.ul_list{
+		width: 50%;
 	}
 }
 

@@ -1,9 +1,10 @@
 console.log("Primeiro teste com alocação de memria ");
 
-const idade =26;
+let idade =26;
 
 console.log(idade);
 console.log(idade + 2);
 console.log("");
-const idadeSomada = idade + 2;
+console.log(idade)
+const idadeSomada = idade + 10;
 console.log(idadeSomada);

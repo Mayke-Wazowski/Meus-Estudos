@@ -21,12 +21,12 @@ const listaDeDistinos = new Array(
     "RiodeJaneiro",
     `Curitiba`
 )
-listaDeDistinos.push(`Maringá`);// Adicionado itens na lista
+listaDeDistinos.push(`Montalvãnia`);// Adicionado itens na lista
 console.log("Destinos possíveis: ");
 console.log(listaDeDistinos);
  
-listaDeDistinos.splice(1,1)
-console.log(listaDeDistinos)
+listaDeDistinos.splice(1,1);
+console.log(listaDeDistinos);
 
 // para acessar um item em espécisfico da lista
 console.log(listaDeDistinos[1]);

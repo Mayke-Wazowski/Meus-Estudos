@@ -106,3 +106,23 @@ footer{
     margin-top: 20px;
 }
 /*=========== FIm do Footer ================*/
+
+@media screen and (max-width: 1000px) {
+	.caixa{
+        width: auto;
+    }
+	nav {
+		position: static;
+	}
+
+    ul.produtos{
+        width: auto;
+        margin-right: 10px;
+        display:grid;
+      
+    }
+    .produtos li{
+     display: grid;
+      width:20em;
+    }
+}

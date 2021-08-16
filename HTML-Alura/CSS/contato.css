@@ -6,7 +6,7 @@ main{
 form{
     margin: 40px 0;
 }
-/*============= Inivio do Nomes ===================*/
+/*============= Envio do Nomes ===================*/
 fieldset{
   
     border: none;
@@ -102,3 +102,10 @@ td{
 
 /*============= Final da Table ===================*/
 
+
+@media screen and(max-width:600px) {
+    .main{
+        width: auto;
+        padding: 3em;
+    }
+}

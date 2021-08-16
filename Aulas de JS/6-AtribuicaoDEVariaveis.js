@@ -13,7 +13,7 @@ let contador = 0;
 contador = contador + 1;
 
 // const não pode ter o valor mudado
-const nomeCompleto = primeiroNome + sobrenome;
+const nomeCompleto = primeiroNome +  " " + sobrenome;
 console.log(`meu nome é ${nomeCompleto}`);
 
  
